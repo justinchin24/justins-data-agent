@@ -1,4 +1,4 @@
-# 🤖 Enterprise Support Data Agent
+```# 🤖 Enterprise Support Data Agent
 
 An AI-powered data extraction pipeline and web interface that transforms unstructured IT support tickets into validated, structured JSON objects using Python, Pydantic, Streamlit, and the Google GenAI SDK.
 
@@ -11,7 +11,7 @@ An AI-powered data extraction pipeline and web interface that transforms unstruc
 
 1. **Clone the repository:**
 
-bash
+```bash
 git clone https://github.com/your-username/justins-data-agent.git
 cd justins-data-agent
 
