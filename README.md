@@ -14,23 +14,32 @@ An AI-powered data extraction pipeline and web interface that transforms unstruc
 ```bash
 git clone https://github.com/your-username/justins-data-agent.git
 cd justins-data-agent
+```
 
 2. **Create and activate a virtual environment:**
 
+```bash
 python -m venv .venv
 # On Windows:
 .venv\Scripts\activate
+```
 
 3. **Install dependencies:**
 
+```bash
 pip install google-genai pydantic python-dotenv streamlit
+```
 
 4. **Configure your environment variables:**
 Create a `.env` file in the root directory and add your Google Gemini API key:
 
+```env
 GEMINI_API_KEY=your_actual_api_key_here
+```
 
 5. **Run the Streamlit Web App:**
 
+```bash
 streamlit run app.py
+```
 
