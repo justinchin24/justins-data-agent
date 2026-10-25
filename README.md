@@ -33,8 +33,8 @@ pip install google-genai pydantic python-dotenv streamlit
 4. **Configure your environment variables:**
 Create a `.env` file in the root directory and add your Google Gemini API key:
 
-```env
-GEMINI_API_KEY=your_actual_api_key_here
+```bash
+echo "GEMINI_API_KEY=your_actual_api_key_here" > .env
 ```
 
 5. **Run the Streamlit Web App:**
