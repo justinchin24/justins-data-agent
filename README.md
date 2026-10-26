@@ -19,7 +19,8 @@ cd justins-data-agent
 2. **Create and activate a virtual environment:**
 
 ```bash
-python -m venv .venv
+py -m venv .venv
+
 # On Windows:
 .venv\Scripts\activate
 ```
@@ -34,7 +35,7 @@ pip install google-genai pydantic python-dotenv streamlit
 Create a `.env` file in the root directory and add your Google Gemini API key:
 
 ```bash
-echo "GEMINI_API_KEY=your_actual_api_key_here" > .env
+echo GEMINI_API_KEY=your_actual_api_key_here > .env
 ```
 
 5. **Run the Streamlit Web App:**
