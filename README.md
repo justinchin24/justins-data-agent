@@ -12,7 +12,7 @@ An AI-powered data extraction pipeline and web interface that transforms unstruc
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/justins-data-agent.git
+git clone https://github.com/justinchin24/justins-data-agent.git
 cd justins-data-agent
 ```
 
