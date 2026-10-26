@@ -9,11 +9,12 @@ An AI-powered data extraction pipeline and web interface that transforms unstruc
 
 ## 🚀 Local Setup & Installation
 
-1. **Clone the repository:**
+1. **Clone the repository and open in VS code:**
 
 ```bash
 git clone https://github.com/justinchin24/justins-data-agent.git
 cd justins-data-agent
+code .
 ```
 
 2. **Create and activate a virtual environment:**
